@@ -17,9 +17,12 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.light,
       theme: ThemeData(
         primarySwatch: Colors.cyan,
-        primaryTextTheme: GoogleFonts.latoTextTheme(),
+        fontFamily: GoogleFonts.lato().fontFamily,
+        //primaryTextTheme: GoogleFonts.latoTextTheme()
       ),
+
       darkTheme: ThemeData(brightness: Brightness.dark),
+
       //initialRoute: "/home",
       routes: {
         "/": (context) => LoginPage(),
