@@ -1,4 +1,4 @@
-# My First Flutter App
+# App made while learning FLutter
 
 A new Flutter project.
 
